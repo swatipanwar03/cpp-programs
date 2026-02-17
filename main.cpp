@@ -1,7 +1,16 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    cout << "Hello World";
-    return 0;
+int main()
+{
+    int a, b, sum;
+
+    cout << "Enter two numbers:";
+    cin >> a >> b;
+
+    sum = a + b;
+
+    cout << "Sum = " << sum;
+
+    return 0;=
 }
